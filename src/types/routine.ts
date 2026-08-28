@@ -5,6 +5,7 @@ export interface RoutineExercise {
   sets: number;
   reps: string;
   restSeconds: number;
+  prescription?: string;
   exercise?: Exercise;
 }
 

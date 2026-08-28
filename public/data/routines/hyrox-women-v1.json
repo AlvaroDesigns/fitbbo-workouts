@@ -8,14 +8,22 @@
     "key": "hyrox-women",
     "name": "HYROX Mujer",
     "exercises": [
-      { "exerciseId": "0003", "sets": 1, "reps": "50", "restSeconds": 60 },
-      { "exerciseId": "0028", "sets": 1, "reps": "24", "restSeconds": 90 },
-      { "exerciseId": "0032", "sets": 1, "reps": "20", "restSeconds": 90 },
-      { "exerciseId": "0053", "sets": 1, "reps": "24", "restSeconds": 60 },
-      { "exerciseId": "0027", "sets": 1, "reps": "24", "restSeconds": 75 },
-      { "exerciseId": "0054", "sets": 1, "reps": "30", "restSeconds": 75 },
-      { "exerciseId": "0069", "sets": 1, "reps": "20", "restSeconds": 90 },
-      { "exerciseId": "0071", "sets": 1, "reps": "24", "restSeconds": 60 }
+      { "exerciseId": "hyrox-run", "sets": 1, "reps": "1 km", "restSeconds": 0, "prescription": "1 km de carrera" },
+      { "exerciseId": "hyrox-ski-erg", "sets": 1, "reps": "1000 m", "restSeconds": 0, "prescription": "1000 m" },
+      { "exerciseId": "hyrox-run", "sets": 1, "reps": "1 km", "restSeconds": 0, "prescription": "1 km de carrera" },
+      { "exerciseId": "hyrox-sled-push", "sets": 1, "reps": "50 m", "restSeconds": 0, "prescription": "50 m · 102 kg" },
+      { "exerciseId": "hyrox-run", "sets": 1, "reps": "1 km", "restSeconds": 0, "prescription": "1 km de carrera" },
+      { "exerciseId": "hyrox-sled-pull", "sets": 1, "reps": "50 m", "restSeconds": 0, "prescription": "50 m · 78 kg" },
+      { "exerciseId": "hyrox-run", "sets": 1, "reps": "1 km", "restSeconds": 0, "prescription": "1 km de carrera" },
+      { "exerciseId": "hyrox-burpee-broad-jump", "sets": 1, "reps": "80 m", "restSeconds": 0, "prescription": "80 m" },
+      { "exerciseId": "hyrox-run", "sets": 1, "reps": "1 km", "restSeconds": 0, "prescription": "1 km de carrera" },
+      { "exerciseId": "hyrox-row", "sets": 1, "reps": "1000 m", "restSeconds": 0, "prescription": "1000 m" },
+      { "exerciseId": "hyrox-run", "sets": 1, "reps": "1 km", "restSeconds": 0, "prescription": "1 km de carrera" },
+      { "exerciseId": "hyrox-farmers-carry", "sets": 1, "reps": "200 m", "restSeconds": 0, "prescription": "200 m · 2 × 16 kg" },
+      { "exerciseId": "hyrox-run", "sets": 1, "reps": "1 km", "restSeconds": 0, "prescription": "1 km de carrera" },
+      { "exerciseId": "hyrox-sandbag-lunges", "sets": 1, "reps": "100 m", "restSeconds": 0, "prescription": "100 m · 10 kg" },
+      { "exerciseId": "hyrox-run", "sets": 1, "reps": "1 km", "restSeconds": 0, "prescription": "1 km de carrera" },
+      { "exerciseId": "hyrox-wall-balls", "sets": 1, "reps": "100", "restSeconds": 0, "prescription": "100 repeticiones · 4 kg" }
     ]
   }]
 }

@@ -1,5 +1,6 @@
 import type { Exercise } from "../types/exercise";
 import { publicPath } from "../utils/paths";
+import { hyroxExercises } from "../data/hyrox-exercises";
 
 let exerciseCache: Map<string, Exercise> | null = null;
 let exerciseListCache: Exercise[] | null = null;
@@ -15,7 +16,8 @@ export async function getExercises(): Promise<Exercise[]> {
       throw new Error("Unable to load exercises");
     }
 
-    const data: Exercise[] = await response.json();
+    const catalog: Exercise[] = await response.json();
+    const data = [...catalog, ...hyroxExercises];
     exerciseListCache = data;
 
     // Build indexed map for fast lookups

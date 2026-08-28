@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://workouts.fitbbo.com/</loc><priority>1.0</priority></url>
+  <url><loc>https://workouts.fitbbo.com/routine/ppl-v1/</loc><priority>0.8</priority></url>
+  <url><loc>https://workouts.fitbbo.com/routine/core-v1/</loc><priority>0.8</priority></url>
+  <url><loc>https://workouts.fitbbo.com/routine/legs-v1/</loc><priority>0.8</priority></url>
+  <url><loc>https://workouts.fitbbo.com/routine/shoulders-v1/</loc><priority>0.8</priority></url>
+  <url><loc>https://workouts.fitbbo.com/routine/upper-v1/</loc><priority>0.8</priority></url>
+  <url><loc>https://workouts.fitbbo.com/routine/chest-v1/</loc><priority>0.8</priority></url>
+  <url><loc>https://workouts.fitbbo.com/routine/back-v1/</loc><priority>0.8</priority></url>
+  <url><loc>https://workouts.fitbbo.com/routine/arms-v1/</loc><priority>0.8</priority></url>
+  <url><loc>https://workouts.fitbbo.com/routine/full-body-v1/</loc><priority>0.8</priority></url>
+  <url><loc>https://workouts.fitbbo.com/routine/hyrox-men-v1/</loc><priority>0.9</priority></url>
+  <url><loc>https://workouts.fitbbo.com/routine/hyrox-women-v1/</loc><priority>0.9</priority></url>
+</urlset>
