@@ -30,6 +30,12 @@ function validColor(value: unknown): string | undefined {
   return typeof value === "string" && /^#[0-9a-f]{6}$/i.test(value) ? value : undefined;
 }
 
+function contrastColor(hex: string) {
+  const channels = [1, 3, 5].map(index => parseInt(hex.slice(index, index + 2), 16) / 255);
+  const [r, g, b] = channels.map(channel => channel <= 0.03928 ? channel / 12.92 : ((channel + 0.055) / 1.055) ** 2.4);
+  return 0.2126 * r + 0.7152 * g + 0.0722 * b > 0.38 ? "#111310" : "#ffffff";
+}
+
 export function WebViewProvider({ children }: { children: ReactNode }) {
   const detectedClient: ClientType = window.ReactNativeWebView ? "app" : "web";
   const [sessionToken, setSessionToken] = useState<string | null>(null);
@@ -63,6 +69,8 @@ export function WebViewProvider({ children }: { children: ReactNode }) {
     const root = document.documentElement;
     root.style.setProperty("--primary", theme.primary);
     root.style.setProperty("--primary-dark", theme.primaryDark);
+    root.style.setProperty("--on-primary", contrastColor(theme.primary));
+    root.style.setProperty("--on-primary-dark", contrastColor(theme.primaryDark));
     root.dataset.client = client;
   }, [theme, client]);
 
