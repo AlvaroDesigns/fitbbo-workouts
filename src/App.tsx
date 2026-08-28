@@ -5,11 +5,12 @@ import { RoutinePage } from "./pages/RoutinePage";
 import { WorkoutPage } from "./pages/WorkoutPage";
 import { ScrollToTop } from "./components/ScrollToTop";
 import { WebViewProvider } from "./contexts/WebViewContext";
+import { APP_BASENAME } from "./utils/paths";
 
 function App() {
   return (
     <WebViewProvider>
-      <Router>
+      <Router basename={APP_BASENAME}>
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<HomePage />} />

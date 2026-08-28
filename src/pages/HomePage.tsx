@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { publicPath } from "../utils/paths";
 
 const sessions = [
   {
@@ -56,7 +57,7 @@ export function HomePage() {
               to={`/routine/${session.key}`}
               className={`session-card session-${session.tone} ${index === 0 ? "session-featured" : ""}`}
             >
-              <img src={`/images/${session.image}`} alt="" />
+              <img src={publicPath(`images/${session.image}`)} alt="" />
               <span className="session-shade" />
               <span className="session-number">
                 {String(index + 1).padStart(2, "0")}

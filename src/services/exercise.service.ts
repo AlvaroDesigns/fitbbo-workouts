@@ -1,4 +1,5 @@
 import type { Exercise } from "../types/exercise";
+import { publicPath } from "../utils/paths";
 
 let exerciseCache: Map<string, Exercise> | null = null;
 let exerciseListCache: Exercise[] | null = null;
@@ -9,7 +10,7 @@ export async function getExercises(): Promise<Exercise[]> {
   }
 
   try {
-    const response = await fetch("/data/exercises.json");
+    const response = await fetch(publicPath("data/exercises.json"));
     if (!response.ok) {
       throw new Error("Unable to load exercises");
     }

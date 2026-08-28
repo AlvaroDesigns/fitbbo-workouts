@@ -1,5 +1,6 @@
 import type { Routine } from "../types/routine";
 import { getExercisesByIds } from "./exercise.service";
+import { publicPath } from "../utils/paths";
 
 let routineCache: Map<string, Routine> = new Map();
 
@@ -10,7 +11,7 @@ export async function loadRoutine(routineKey: string): Promise<Routine | null> {
   }
 
   try {
-    const response = await fetch(`/data/routines/${routineKey}.json`);
+    const response = await fetch(publicPath(`data/routines/${routineKey}.json`));
     if (!response.ok) {
       return null;
     }
