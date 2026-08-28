@@ -82,11 +82,11 @@ npm run build
 
 ### 🔄 Próximas fases
 
-- [ ] Más rutinas (Upper/Lower, Full Body, etc.)
+- [x] Rutinas PPL, Core, Piernas, Hombros y Tren superior
 - [ ] Programas de entrenamiento
-- [ ] Integración con WebView de Fitbbo Mobile
+- [x] Integración con WebView de Fitbbo Mobile
 - [ ] Service Worker para modo offline
-- [ ] Despliegue en Vercel
+- [x] Despliegue en GitHub Pages con dominio propio
 
 ## 🔗 Rutas
 
@@ -148,17 +148,16 @@ Para Fitbbo Mobile:
 ```javascript
 <WebView
   source={{
-    uri: `https://fitbbo-workouts.vercel.app/routine/${routineKey}`
+    uri: `https://workouts.fitbbo.com/routine/${routineKey}`
   }}
 />
 ```
 
 ## 🚀 Despliegue
 
-```bash
-npm install -g vercel
-vercel
-```
+El despliegue se ejecuta automáticamente en GitHub Pages al publicar cambios en
+`main`. El dominio se configura mediante `public/CNAME` como
+`workouts.fitbbo.com`.
 
 ---
 
