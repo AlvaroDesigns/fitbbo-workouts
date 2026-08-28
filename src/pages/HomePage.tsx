@@ -69,14 +69,14 @@ const sessions = [
     key: "hyrox-men-v1",
     title: "HYROX Hombre",
     meta: "8 estaciones · 60–75 min",
-    image: "0028-SGY8Zui.jpg",
+    image: "hyrox/03-sled-push.png",
     tone: "orange",
   },
   {
     key: "hyrox-women-v1",
     title: "HYROX Mujer",
     meta: "8 estaciones · 60–75 min",
-    image: "0054-t8iSghb.jpg",
+    image: "hyrox/09-wall-ball.png",
     tone: "pink",
   },
 ] as const;
