@@ -1,0 +1,21 @@
+{
+  "key": "hyrox-men-v1",
+  "version": 1,
+  "name": "HYROX Hombre",
+  "description": "Circuito HYROX adaptado de ocho estaciones para trabajar fuerza y resistencia",
+  "level": "advanced",
+  "days": [{
+    "key": "hyrox-men",
+    "name": "HYROX Hombre",
+    "exercises": [
+      { "exerciseId": "0003", "sets": 1, "reps": "60", "restSeconds": 60 },
+      { "exerciseId": "0028", "sets": 1, "reps": "30", "restSeconds": 90 },
+      { "exerciseId": "0032", "sets": 1, "reps": "25", "restSeconds": 90 },
+      { "exerciseId": "0053", "sets": 1, "reps": "30", "restSeconds": 60 },
+      { "exerciseId": "0027", "sets": 1, "reps": "30", "restSeconds": 75 },
+      { "exerciseId": "0054", "sets": 1, "reps": "40", "restSeconds": 75 },
+      { "exerciseId": "0069", "sets": 1, "reps": "25", "restSeconds": 90 },
+      { "exerciseId": "0071", "sets": 1, "reps": "30", "restSeconds": 60 }
+    ]
+  }]
+}

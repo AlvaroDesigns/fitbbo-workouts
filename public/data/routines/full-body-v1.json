@@ -1,0 +1,19 @@
+{
+  "key": "full-body-v1",
+  "version": 1,
+  "name": "Cuerpo completo",
+  "description": "Los principales patrones de movimiento en una única sesión equilibrada",
+  "level": "intermediate",
+  "days": [{
+    "key": "full-body",
+    "name": "Cuerpo completo",
+    "exercises": [
+      { "exerciseId": "0043", "sets": 4, "reps": "6-8", "restSeconds": 120 },
+      { "exerciseId": "0025", "sets": 4, "reps": "8-10", "restSeconds": 90 },
+      { "exerciseId": "0027", "sets": 4, "reps": "8-10", "restSeconds": 90 },
+      { "exerciseId": "0085", "sets": 3, "reps": "8-10", "restSeconds": 120 },
+      { "exerciseId": "0091", "sets": 3, "reps": "10-12", "restSeconds": 90 },
+      { "exerciseId": "0001", "sets": 3, "reps": "15-20", "restSeconds": 45 }
+    ]
+  }]
+}

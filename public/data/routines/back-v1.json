@@ -1,0 +1,18 @@
+{
+  "key": "back-v1",
+  "version": 1,
+  "name": "Espalda",
+  "description": "Tirones verticales y remos para una espalda fuerte y equilibrada",
+  "level": "intermediate",
+  "days": [{
+    "key": "back",
+    "name": "Espalda",
+    "exercises": [
+      { "exerciseId": "0017", "sets": 4, "reps": "6-10", "restSeconds": 120 },
+      { "exerciseId": "0027", "sets": 4, "reps": "6-8", "restSeconds": 120 },
+      { "exerciseId": "0007", "sets": 3, "reps": "10-12", "restSeconds": 90 },
+      { "exerciseId": "0049", "sets": 3, "reps": "8-12", "restSeconds": 90 },
+      { "exerciseId": "0073", "sets": 3, "reps": "12-15", "restSeconds": 60 }
+    ]
+  }]
+}

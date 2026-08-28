@@ -37,6 +37,48 @@ const sessions = [
     image: "0027-eZyBC3j.jpg",
     tone: "pink",
   },
+  {
+    key: "chest-v1",
+    title: "Pecho",
+    meta: "5 ejercicios · 50 min",
+    image: "0047-3TZduzM.jpg",
+    tone: "orange",
+  },
+  {
+    key: "back-v1",
+    title: "Espalda",
+    meta: "5 ejercicios · 50 min",
+    image: "0049-dmgMp3n.jpg",
+    tone: "blue",
+  },
+  {
+    key: "arms-v1",
+    title: "Brazos",
+    meta: "6 ejercicios · 45 min",
+    image: "0031-25GPyDY.jpg",
+    tone: "violet",
+  },
+  {
+    key: "full-body-v1",
+    title: "Cuerpo completo",
+    meta: "6 ejercicios · 60 min",
+    image: "0032-ila4NZS.jpg",
+    tone: "lime",
+  },
+  {
+    key: "hyrox-men-v1",
+    title: "HYROX Hombre",
+    meta: "8 estaciones · 60–75 min",
+    image: "0028-SGY8Zui.jpg",
+    tone: "orange",
+  },
+  {
+    key: "hyrox-women-v1",
+    title: "HYROX Mujer",
+    meta: "8 estaciones · 60–75 min",
+    image: "0054-t8iSghb.jpg",
+    tone: "pink",
+  },
 ] as const;
 
 export function HomePage() {

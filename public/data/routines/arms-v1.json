@@ -1,0 +1,19 @@
+{
+  "key": "arms-v1",
+  "version": 1,
+  "name": "Brazos",
+  "description": "Trabajo combinado de bíceps y tríceps para ganar fuerza y volumen",
+  "level": "intermediate",
+  "days": [{
+    "key": "arms",
+    "name": "Brazos",
+    "exercises": [
+      { "exerciseId": "0031", "sets": 4, "reps": "8-10", "restSeconds": 75 },
+      { "exerciseId": "0030", "sets": 4, "reps": "8-10", "restSeconds": 90 },
+      { "exerciseId": "0070", "sets": 3, "reps": "10-12", "restSeconds": 60 },
+      { "exerciseId": "0061", "sets": 3, "reps": "10-12", "restSeconds": 60 },
+      { "exerciseId": "0080", "sets": 3, "reps": "12-15", "restSeconds": 60 },
+      { "exerciseId": "0092", "sets": 3, "reps": "12-15", "restSeconds": 60 }
+    ]
+  }]
+}

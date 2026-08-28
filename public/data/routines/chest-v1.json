@@ -1,0 +1,18 @@
+{
+  "key": "chest-v1",
+  "version": 1,
+  "name": "Pecho",
+  "description": "Una sesión completa para desarrollar fuerza y volumen en el pecho",
+  "level": "intermediate",
+  "days": [{
+    "key": "chest",
+    "name": "Pecho",
+    "exercises": [
+      { "exerciseId": "0025", "sets": 4, "reps": "6-8", "restSeconds": 120 },
+      { "exerciseId": "0047", "sets": 3, "reps": "8-10", "restSeconds": 90 },
+      { "exerciseId": "0033", "sets": 3, "reps": "10-12", "restSeconds": 90 },
+      { "exerciseId": "0009", "sets": 3, "reps": "8-12", "restSeconds": 75 },
+      { "exerciseId": "0040", "sets": 3, "reps": "12-15", "restSeconds": 60 }
+    ]
+  }]
+}
