@@ -1,0 +1,17 @@
+{
+  "key": "upper-v1",
+  "version": 1,
+  "name": "Upper Body",
+  "description": "Sesión completa de pecho, espalda y brazos",
+  "level": "intermediate",
+  "days": [{
+    "key": "upper",
+    "name": "Upper Body",
+    "exercises": [
+      { "exerciseId": "0025", "sets": 4, "reps": "8-10", "restSeconds": 90 },
+      { "exerciseId": "0027", "sets": 4, "reps": "8-10", "restSeconds": 90 },
+      { "exerciseId": "0031", "sets": 3, "reps": "10-12", "restSeconds": 60 },
+      { "exerciseId": "0061", "sets": 3, "reps": "10-12", "restSeconds": 60 }
+    ]
+  }]
+}

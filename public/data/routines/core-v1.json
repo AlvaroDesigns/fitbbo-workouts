@@ -1,0 +1,17 @@
+{
+  "key": "core-v1",
+  "version": 1,
+  "name": "Core",
+  "description": "Control, estabilidad y fuerza para la zona media",
+  "level": "intermediate",
+  "days": [{
+    "key": "core",
+    "name": "Core",
+    "exercises": [
+      { "exerciseId": "0001", "sets": 3, "reps": "12-15", "restSeconds": 45 },
+      { "exerciseId": "0003", "sets": 3, "reps": "20", "restSeconds": 45 },
+      { "exerciseId": "0006", "sets": 3, "reps": "16-20", "restSeconds": 45 },
+      { "exerciseId": "0084", "sets": 3, "reps": "8-12", "restSeconds": 60 }
+    ]
+  }]
+}

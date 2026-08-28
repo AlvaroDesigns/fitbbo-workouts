@@ -1,0 +1,17 @@
+{
+  "key": "shoulders-v1",
+  "version": 1,
+  "name": "Shoulders",
+  "description": "Deltoides fuertes con trabajo de press y aislamiento",
+  "level": "intermediate",
+  "days": [{
+    "key": "shoulders",
+    "name": "Shoulders",
+    "exercises": [
+      { "exerciseId": "0091", "sets": 4, "reps": "8-10", "restSeconds": 90 },
+      { "exerciseId": "0041", "sets": 3, "reps": "10-12", "restSeconds": 60 },
+      { "exerciseId": "0075", "sets": 3, "reps": "12-15", "restSeconds": 60 },
+      { "exerciseId": "0105", "sets": 3, "reps": "8-10", "restSeconds": 90 }
+    ]
+  }]
+}

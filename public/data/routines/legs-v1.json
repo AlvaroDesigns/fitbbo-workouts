@@ -1,0 +1,17 @@
+{
+  "key": "legs-v1",
+  "version": 1,
+  "name": "Legs",
+  "description": "Fuerza completa de cuádriceps, glúteos e isquios",
+  "level": "intermediate",
+  "days": [{
+    "key": "legs",
+    "name": "Legs",
+    "exercises": [
+      { "exerciseId": "0043", "sets": 4, "reps": "6-8", "restSeconds": 120 },
+      { "exerciseId": "0054", "sets": 3, "reps": "10-12", "restSeconds": 90 },
+      { "exerciseId": "0085", "sets": 3, "reps": "8-10", "restSeconds": 90 },
+      { "exerciseId": "0088", "sets": 4, "reps": "12-15", "restSeconds": 60 }
+    ]
+  }]
+}
