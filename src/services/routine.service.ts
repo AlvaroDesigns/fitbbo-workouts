@@ -40,10 +40,13 @@ export async function enrichRoutineWithExercises(
   // Enrich routine with exercise data
   const enrichedDays = routine.days.map((day) => ({
     ...day,
-    exercises: day.exercises.map((ex) => ({
-      ...ex,
-      exercise: exerciseMap.get(ex.exerciseId),
-    })),
+    exercises: day.exercises.map((ex) => {
+      const exercise = exerciseMap.get(ex.exerciseId);
+      return {
+        ...ex,
+        exercise: exercise && { ...exercise, image: ex.image ?? exercise.image },
+      };
+    }),
   }));
 
   return {

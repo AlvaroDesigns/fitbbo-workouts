@@ -2,6 +2,7 @@ import type { Exercise } from "./exercise";
 
 export interface RoutineExercise {
   exerciseId: string;
+  image?: string;
   sets: number;
   reps: string;
   restSeconds: number;

@@ -8,12 +8,12 @@
     "key": "arms",
     "name": "Brazos",
     "exercises": [
-      { "exerciseId": "0031", "sets": 4, "reps": "8-10", "restSeconds": 75 },
-      { "exerciseId": "0030", "sets": 4, "reps": "8-10", "restSeconds": 90 },
-      { "exerciseId": "0070", "sets": 3, "reps": "10-12", "restSeconds": 60 },
-      { "exerciseId": "0061", "sets": 3, "reps": "10-12", "restSeconds": 60 },
-      { "exerciseId": "0080", "sets": 3, "reps": "12-15", "restSeconds": 60 },
-      { "exerciseId": "0092", "sets": 3, "reps": "12-15", "restSeconds": 60 }
+      { "exerciseId": "0031", "image": "images/arms/0031-barbell-curl.png", "sets": 4, "reps": "8-10", "restSeconds": 75 },
+      { "exerciseId": "0030", "image": "images/arms/0030-close-grip-bench-press.png", "sets": 4, "reps": "8-10", "restSeconds": 90 },
+      { "exerciseId": "0070", "image": "images/arms/0070-preacher-curl.png", "sets": 3, "reps": "10-12", "restSeconds": 60 },
+      { "exerciseId": "0061", "image": "images/arms/0061-lying-triceps-extension.png", "sets": 3, "reps": "10-12", "restSeconds": 60 },
+      { "exerciseId": "0080", "image": "images/arms/0080-reverse-curl.png", "sets": 3, "reps": "12-15", "restSeconds": 60 },
+      { "exerciseId": "0092", "image": "images/arms/0092-seated-overhead-triceps-extension.png", "sets": 3, "reps": "12-15", "restSeconds": 60 }
     ]
   }]
 }

@@ -8,12 +8,12 @@
     "key": "full-body",
     "name": "Cuerpo completo",
     "exercises": [
-      { "exerciseId": "0043", "sets": 4, "reps": "6-8", "restSeconds": 120 },
-      { "exerciseId": "0025", "sets": 4, "reps": "8-10", "restSeconds": 90 },
-      { "exerciseId": "0027", "sets": 4, "reps": "8-10", "restSeconds": 90 },
-      { "exerciseId": "0085", "sets": 3, "reps": "8-10", "restSeconds": 120 },
-      { "exerciseId": "0091", "sets": 3, "reps": "10-12", "restSeconds": 90 },
-      { "exerciseId": "0001", "sets": 3, "reps": "15-20", "restSeconds": 45 }
+      { "exerciseId": "0043", "image": "images/full-body/0043-squat.png", "sets": 4, "reps": "6-8", "restSeconds": 120 },
+      { "exerciseId": "0025", "image": "images/full-body/0025-bench-press.png", "sets": 4, "reps": "8-10", "restSeconds": 90 },
+      { "exerciseId": "0027", "image": "images/full-body/0027-row.png", "sets": 4, "reps": "8-10", "restSeconds": 90 },
+      { "exerciseId": "0085", "image": "images/full-body/0085-romanian-deadlift.png", "sets": 3, "reps": "8-10", "restSeconds": 120 },
+      { "exerciseId": "0091", "image": "images/full-body/0091-overhead-press.png", "sets": 3, "reps": "10-12", "restSeconds": 90 },
+      { "exerciseId": "0001", "image": "images/full-body/0001-sit-up.png", "sets": 3, "reps": "15-20", "restSeconds": 45 }
     ]
   }]
 }

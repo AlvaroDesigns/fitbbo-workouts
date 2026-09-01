@@ -1,3 +1,32 @@
 import type { Exercise } from "../types/exercise";
 import { publicPath } from "../utils/paths";
-export function ExerciseDetail({exercise,onBack}:{exercise:Exercise;onBack:()=>void}){const steps=Array.isArray(exercise.instruction_steps)?exercise.instruction_steps:exercise.instruction_steps?.es??[];const muscles=typeof exercise.muscle_group==="string"?[exercise.muscle_group]:exercise.muscle_group??[];return <article className="exercise-detail"><section className="exercise-detail-hero"><img src={publicPath(exercise.gif_url||exercise.image)} alt={exercise.name}/><button className="icon-button" onClick={onBack} aria-label="Volver">←</button><div><span className="eyebrow">{exercise.body_part} · {exercise.equipment}</span><h1>{exercise.name}</h1></div></section><div className="exercise-detail-body"><div className="exercise-stats"><div><span>Objetivo</span><strong>{exercise.target}</strong></div><div><span>Equipo</span><strong>{exercise.equipment}</strong></div></div><section className="detail-section"><span className="eyebrow">Músculos</span><div className="muscle-chips">{muscles.map(muscle=><span key={muscle}>{muscle}</span>)}</div></section>{steps.length>0&&<section className="detail-section"><span className="eyebrow">Cómo hacerlo</span><h2>Técnica</h2><ol className="instruction-list">{steps.map((step,index)=><li key={index}><span>{String(index+1).padStart(2,"0")}</span><p>{step}</p></li>)}</ol></section>}</div></article>}
+const workoutDetailImages: Record<string, string> = {
+  "0019": "images/ppl/0019-assisted-triceps-dip.png",
+  "0015": "images/ppl/0015-assisted-close-grip-pull-up.png",
+  "0054": "images/legs/0054-lunge.png",
+  "0088": "images/legs/0088-seated-calf-raise.png",
+  "0003": "images/core/0003-bicycle-crunch.png",
+  "0006": "images/core/0006-russian-twist.png",
+  "0084": "images/core/0084-ab-wheel-rollout.png",
+  "0017": "images/back/0017-assisted-pull-up.png",
+  "0007": "images/back/0007-lateral-pulldown.png",
+  "0049": "images/back/0049-incline-row.png",
+  "0073": "images/back/0073-barbell-pullover.png",
+  "0047": "images/chest/0047-incline-bench-press.png",
+  "0033": "images/chest/0033-decline-bench-press.png",
+  "0009": "images/chest/0009-assisted-chest-dip.png",
+  "0040": "images/chest/0040-front-raise-pullover.png",
+  "0031": "images/upper/0031-barbell-curl.png",
+  "0030": "images/arms/0030-close-grip-bench-press.png",
+  "0070": "images/arms/0070-preacher-curl.png",
+  "0061": "images/upper/0061-lying-triceps-extension.png",
+  "0080": "images/arms/0080-reverse-curl.png",
+  "0092": "images/arms/0092-seated-overhead-triceps-extension.png",
+  "0043": "images/legs/0043-squat.png",
+  "0025": "images/upper/0025-bench-press.png",
+  "0027": "images/upper/0027-bent-over-row.png",
+  "0085": "images/legs/0085-romanian-deadlift.png",
+  "0091": "images/full-body/0091-overhead-press.png",
+  "0001": "images/core/0001-sit-up.png",
+};
+export function ExerciseDetail({exercise,onBack}:{exercise:Exercise;onBack:()=>void}){const steps=Array.isArray(exercise.instruction_steps)?exercise.instruction_steps:exercise.instruction_steps?.es??[];const muscles=typeof exercise.muscle_group==="string"?[exercise.muscle_group]:exercise.muscle_group??[];const heroImage=workoutDetailImages[exercise.id]??exercise.gif_url??exercise.image;return <article className="exercise-detail"><section className="exercise-detail-hero"><img src={publicPath(heroImage)} alt={exercise.name}/><button className="icon-button" onClick={onBack} aria-label="Volver">←</button><div><span className="eyebrow">{exercise.body_part} · {exercise.equipment}</span><h1>{exercise.name}</h1></div></section><div className="exercise-detail-body"><div className="exercise-stats"><div><span>Objetivo</span><strong>{exercise.target}</strong></div><div><span>Equipo</span><strong>{exercise.equipment}</strong></div></div><section className="detail-section"><span className="eyebrow">Músculos</span><div className="muscle-chips">{muscles.map(muscle=><span key={muscle}>{muscle}</span>)}</div></section>{steps.length>0&&<section className="detail-section"><span className="eyebrow">Cómo hacerlo</span><h2>Técnica</h2><ol className="instruction-list">{steps.map((step,index)=><li key={index}><span>{String(index+1).padStart(2,"0")}</span><p>{step}</p></li>)}</ol></section>}</div></article>}

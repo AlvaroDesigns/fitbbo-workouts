@@ -8,10 +8,10 @@
     "key": "core",
     "name": "Core",
     "exercises": [
-      { "exerciseId": "0001", "sets": 3, "reps": "12-15", "restSeconds": 45 },
-      { "exerciseId": "0003", "sets": 3, "reps": "20", "restSeconds": 45 },
-      { "exerciseId": "0006", "sets": 3, "reps": "16-20", "restSeconds": 45 },
-      { "exerciseId": "0084", "sets": 3, "reps": "8-12", "restSeconds": 60 }
+      { "exerciseId": "0001", "image": "images/core/0001-sit-up.png", "sets": 3, "reps": "12-15", "restSeconds": 45 },
+      { "exerciseId": "0003", "image": "images/core/0003-bicycle-crunch.png", "sets": 3, "reps": "20", "restSeconds": 45 },
+      { "exerciseId": "0006", "image": "images/core/0006-russian-twist.png", "sets": 3, "reps": "16-20", "restSeconds": 45 },
+      { "exerciseId": "0084", "image": "images/core/0084-ab-wheel-rollout.png", "sets": 3, "reps": "8-12", "restSeconds": 60 }
     ]
   }]
 }

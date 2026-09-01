@@ -8,10 +8,10 @@
     "key": "shoulders",
     "name": "Shoulders",
     "exercises": [
-      { "exerciseId": "0091", "sets": 4, "reps": "8-10", "restSeconds": 90 },
-      { "exerciseId": "0041", "sets": 3, "reps": "10-12", "restSeconds": 60 },
-      { "exerciseId": "0075", "sets": 3, "reps": "12-15", "restSeconds": 60 },
-      { "exerciseId": "0105", "sets": 3, "reps": "8-10", "restSeconds": 90 }
+      { "exerciseId": "0091", "image": "images/shoulders/0091-overhead-press.png", "sets": 4, "reps": "8-10", "restSeconds": 90 },
+      { "exerciseId": "0041", "image": "images/shoulders/0041-front-raise.png", "sets": 3, "reps": "10-12", "restSeconds": 60 },
+      { "exerciseId": "0075", "image": "images/shoulders/0075-rear-delt-row.png", "sets": 3, "reps": "12-15", "restSeconds": 60 },
+      { "exerciseId": "0105", "image": "images/shoulders/0105-upright-row.png", "sets": 3, "reps": "8-10", "restSeconds": 90 }
     ]
   }]
 }

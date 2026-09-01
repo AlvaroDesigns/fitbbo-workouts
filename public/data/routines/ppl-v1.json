@@ -10,19 +10,19 @@
       "name": "Push",
       "exercises": [
         {
-          "exerciseId": "0025",
+          "exerciseId": "0025", "image": "images/upper/0025-bench-press.png",
           "sets": 4,
           "reps": "8-10",
           "restSeconds": 120
         },
         {
-          "exerciseId": "0091",
+          "exerciseId": "0091", "image": "images/shoulders/0091-overhead-press.png",
           "sets": 3,
           "reps": "10-12",
           "restSeconds": 90
         },
         {
-          "exerciseId": "0019",
+          "exerciseId": "0019", "image": "images/ppl/0019-assisted-triceps-dip.png",
           "sets": 3,
           "reps": "8-10",
           "restSeconds": 90
@@ -34,19 +34,19 @@
       "name": "Pull",
       "exercises": [
         {
-          "exerciseId": "0027",
+          "exerciseId": "0027", "image": "images/upper/0027-bent-over-row.png",
           "sets": 4,
           "reps": "6-8",
           "restSeconds": 120
         },
         {
-          "exerciseId": "0015",
+          "exerciseId": "0015", "image": "images/ppl/0015-assisted-close-grip-pull-up.png",
           "sets": 3,
           "reps": "8-10",
           "restSeconds": 90
         },
         {
-          "exerciseId": "0031",
+          "exerciseId": "0031", "image": "images/upper/0031-barbell-curl.png",
           "sets": 3,
           "reps": "5-8",
           "restSeconds": 120
@@ -58,19 +58,19 @@
       "name": "Legs",
       "exercises": [
         {
-          "exerciseId": "0043",
+          "exerciseId": "0043", "image": "images/legs/0043-squat.png",
           "sets": 3,
           "reps": "12-15",
           "restSeconds": 60
         },
         {
-          "exerciseId": "0085",
+          "exerciseId": "0085", "image": "images/legs/0085-romanian-deadlift.png",
           "sets": 3,
           "reps": "10-12",
           "restSeconds": 90
         },
         {
-          "exerciseId": "0088",
+          "exerciseId": "0088", "image": "images/legs/0088-seated-calf-raise.png",
           "sets": 3,
           "reps": "12-15",
           "restSeconds": 60

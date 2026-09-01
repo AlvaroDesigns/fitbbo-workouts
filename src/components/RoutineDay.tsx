@@ -28,6 +28,7 @@ export function RoutineDay({
             <ExerciseCard
               key={`${item.exerciseId}-${index}`}
               exercise={item.exercise}
+              image={item.image}
               sets={item.sets}
               reps={item.reps}
               restSeconds={item.restSeconds}

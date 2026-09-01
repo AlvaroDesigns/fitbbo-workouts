@@ -8,10 +8,10 @@
     "key": "legs",
     "name": "Legs",
     "exercises": [
-      { "exerciseId": "0043", "sets": 4, "reps": "6-8", "restSeconds": 120 },
-      { "exerciseId": "0054", "sets": 3, "reps": "10-12", "restSeconds": 90 },
-      { "exerciseId": "0085", "sets": 3, "reps": "8-10", "restSeconds": 90 },
-      { "exerciseId": "0088", "sets": 4, "reps": "12-15", "restSeconds": 60 }
+      { "exerciseId": "0043", "image": "images/legs/0043-squat.png", "sets": 4, "reps": "6-8", "restSeconds": 120 },
+      { "exerciseId": "0054", "image": "images/legs/0054-lunge.png", "sets": 3, "reps": "10-12", "restSeconds": 90 },
+      { "exerciseId": "0085", "image": "images/legs/0085-romanian-deadlift.png", "sets": 3, "reps": "8-10", "restSeconds": 90 },
+      { "exerciseId": "0088", "image": "images/legs/0088-seated-calf-raise.png", "sets": 4, "reps": "12-15", "restSeconds": 60 }
     ]
   }]
 }

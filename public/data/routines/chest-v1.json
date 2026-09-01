@@ -8,11 +8,11 @@
     "key": "chest",
     "name": "Pecho",
     "exercises": [
-      { "exerciseId": "0025", "sets": 4, "reps": "6-8", "restSeconds": 120 },
-      { "exerciseId": "0047", "sets": 3, "reps": "8-10", "restSeconds": 90 },
-      { "exerciseId": "0033", "sets": 3, "reps": "10-12", "restSeconds": 90 },
-      { "exerciseId": "0009", "sets": 3, "reps": "8-12", "restSeconds": 75 },
-      { "exerciseId": "0040", "sets": 3, "reps": "12-15", "restSeconds": 60 }
+      { "exerciseId": "0025", "image": "images/chest/0025-bench-press.png", "sets": 4, "reps": "6-8", "restSeconds": 120 },
+      { "exerciseId": "0047", "image": "images/chest/0047-incline-bench-press.png", "sets": 3, "reps": "8-10", "restSeconds": 90 },
+      { "exerciseId": "0033", "image": "images/chest/0033-decline-bench-press.png", "sets": 3, "reps": "10-12", "restSeconds": 90 },
+      { "exerciseId": "0009", "image": "images/chest/0009-assisted-chest-dip.png", "sets": 3, "reps": "8-12", "restSeconds": 75 },
+      { "exerciseId": "0040", "image": "images/chest/0040-front-raise-pullover.png", "sets": 3, "reps": "12-15", "restSeconds": 60 }
     ]
   }]
 }

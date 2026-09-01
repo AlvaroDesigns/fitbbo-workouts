@@ -8,10 +8,10 @@
     "key": "upper",
     "name": "Upper Body",
     "exercises": [
-      { "exerciseId": "0025", "sets": 4, "reps": "8-10", "restSeconds": 90 },
-      { "exerciseId": "0027", "sets": 4, "reps": "8-10", "restSeconds": 90 },
-      { "exerciseId": "0031", "sets": 3, "reps": "10-12", "restSeconds": 60 },
-      { "exerciseId": "0061", "sets": 3, "reps": "10-12", "restSeconds": 60 }
+      { "exerciseId": "0025", "image": "images/upper/0025-bench-press.png", "sets": 4, "reps": "8-10", "restSeconds": 90 },
+      { "exerciseId": "0027", "image": "images/upper/0027-bent-over-row.png", "sets": 4, "reps": "8-10", "restSeconds": 90 },
+      { "exerciseId": "0031", "image": "images/upper/0031-barbell-curl.png", "sets": 3, "reps": "10-12", "restSeconds": 60 },
+      { "exerciseId": "0061", "image": "images/upper/0061-lying-triceps-extension.png", "sets": 3, "reps": "10-12", "restSeconds": 60 }
     ]
   }]
 }

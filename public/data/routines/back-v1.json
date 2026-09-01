@@ -8,11 +8,11 @@
     "key": "back",
     "name": "Espalda",
     "exercises": [
-      { "exerciseId": "0017", "sets": 4, "reps": "6-10", "restSeconds": 120 },
-      { "exerciseId": "0027", "sets": 4, "reps": "6-8", "restSeconds": 120 },
-      { "exerciseId": "0007", "sets": 3, "reps": "10-12", "restSeconds": 90 },
-      { "exerciseId": "0049", "sets": 3, "reps": "8-12", "restSeconds": 90 },
-      { "exerciseId": "0073", "sets": 3, "reps": "12-15", "restSeconds": 60 }
+      { "exerciseId": "0017", "image": "images/back/0017-assisted-pull-up.png", "sets": 4, "reps": "6-10", "restSeconds": 120 },
+      { "exerciseId": "0027", "image": "images/back/0027-bent-over-row.png", "sets": 4, "reps": "6-8", "restSeconds": 120 },
+      { "exerciseId": "0007", "image": "images/back/0007-lateral-pulldown.png", "sets": 3, "reps": "10-12", "restSeconds": 90 },
+      { "exerciseId": "0049", "image": "images/back/0049-incline-row.png", "sets": 3, "reps": "8-12", "restSeconds": 90 },
+      { "exerciseId": "0073", "image": "images/back/0073-barbell-pullover.png", "sets": 3, "reps": "12-15", "restSeconds": 60 }
     ]
   }]
 }
