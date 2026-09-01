@@ -87,7 +87,6 @@ export function HomePage() {
       <section className="session-section">
         <div className="home-section-head">
           <div>
-            <span className="eyebrow">Biblioteca</span>
             <h2>Elige una sesión</h2>
           </div>
           <span>{sessions.length} planes</span>
