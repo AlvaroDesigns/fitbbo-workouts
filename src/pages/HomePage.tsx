@@ -5,78 +5,89 @@ const sessions = [
   {
     key: "ppl-v1",
     title: "Push Pull Legs",
-    meta: "3 días · 45–60 min",
-    image: "upper/0025-bench-press.png",
+    summary: "3 días",
+    duration: "45–60 min",
+    image: "ppl.jpg",
     tone: "lime",
   },
   {
     key: "core-v1",
     title: "Core",
-    meta: "4 ejercicios · 25 min",
-    image: "core/0001-sit-up.png",
+    summary: "4 ejercicios",
+    duration: "25 min",
+    image: "core.jpg",
     tone: "violet",
   },
   {
     key: "legs-v1",
     title: "Piernas",
-    meta: "4 ejercicios · 45 min",
-    image: "legs/0043-squat.png",
+    summary: "4 ejercicios",
+    duration: "45 min",
+    image: "legs.jpg",
     tone: "orange",
   },
   {
     key: "shoulders-v1",
     title: "Hombros",
-    meta: "4 ejercicios · 40 min",
-    image: "shoulders/0091-overhead-press.png",
+    summary: "4 ejercicios",
+    duration: "40 min",
+    image: "shoulders.jpg",
     tone: "blue",
   },
   {
     key: "upper-v1",
     title: "Tren superior",
-    meta: "4 ejercicios · 45 min",
-    image: "upper/0025-bench-press.png",
+    summary: "4 ejercicios",
+    duration: "45 min",
+    image: "upper.jpg",
     tone: "pink",
   },
   {
     key: "chest-v1",
     title: "Pecho",
-    meta: "5 ejercicios · 50 min",
-    image: "chest/0025-bench-press.png",
+    summary: "5 ejercicios",
+    duration: "50 min",
+    image: "chest.jpg",
     tone: "orange",
   },
   {
     key: "back-v1",
     title: "Espalda",
-    meta: "5 ejercicios · 50 min",
-    image: "back/0027-bent-over-row.png",
+    summary: "5 ejercicios",
+    duration: "50 min",
+    image: "back.jpg",
     tone: "blue",
   },
   {
     key: "arms-v1",
     title: "Brazos",
-    meta: "6 ejercicios · 45 min",
-    image: "arms/0031-barbell-curl.png",
+    summary: "6 ejercicios",
+    duration: "45 min",
+    image: "arms.jpg",
     tone: "violet",
   },
   {
     key: "full-body-v1",
     title: "Cuerpo completo",
-    meta: "6 ejercicios · 60 min",
-    image: "full-body/0043-squat.png",
+    summary: "6 ejercicios",
+    duration: "60 min",
+    image: "full-body.jpg",
     tone: "lime",
   },
   {
     key: "hyrox-men-v1",
     title: "HYROX Hombre",
-    meta: "8 estaciones · 60–75 min",
-    image: "hyrox/03-sled-push.png",
+    summary: "8 estaciones",
+    duration: "60–75 min",
+    image: "hyrox-men.jpg",
     tone: "orange",
   },
   {
     key: "hyrox-women-v1",
     title: "HYROX Mujer",
-    meta: "8 estaciones · 60–75 min",
-    image: "hyrox/09-wall-ball.png",
+    summary: "8 estaciones",
+    duration: "60–75 min",
+    image: "hyrox-women.jpg",
     tone: "pink",
   },
 ] as const;
@@ -98,13 +109,21 @@ export function HomePage() {
               to={`/routine/${session.key}`}
               className={`session-card session-${session.tone} ${index === 0 ? "session-featured" : ""}`}
             >
-              <img src={publicPath(`images/${session.image}`)} alt="" />
+              <img
+                src={publicPath(`images/cards/${session.image}`)}
+                alt=""
+                loading={index === 0 ? "eager" : "lazy"}
+                decoding="async"
+              />
               <span className="session-shade" />
               <span className="session-number">
                 {String(index + 1).padStart(2, "0")}
               </span>
               <div className="session-copy">
-                <span>{session.meta}</span>
+                <div className="session-meta">
+                  <span>{session.summary}</span>
+                  <span>{session.duration}</span>
+                </div>
                 <h3>{session.title}</h3>
               </div>
               <span className="session-open">↗</span>
